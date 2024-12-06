@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my real web page</title>
+        <link  rel="stylesheet" href="realproject.css">
+        <div class="headpart">
+            <h1>our planet
+                our home
+            </h1>
+            <div id="time">
+                <samp id="hrs">00</samp>
+                <samp>:</samp>
+                <samp id="mins">00</samp>
+                <samp>:</samp>
+                <samp id="secs">00</samp>
+            </div>
+        </div>
+    </head>
+    <body>
+        
+        <div class="div1">
+            <h2>the earth</h2><br>
+            <img id="first-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwT_bY1Eoo0V9dUMz83RtZg6x_NMYeXhjTA&s" width="120" height="120"><br>
+            <p class="A"><span>earth</span> is a place that <span>humans</span> live in happily</p>
+            <p id="A1"></p><br>
+            <button id="Z1" onclick="A()" onmousedown="sound1.play()">show more</button>
+        </div>
+        <div class="div2">
+            <h2>humans</h2><br>
+            <img id="second-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sweet_Baby_Kisses_Family_Love.jpg/1024px-Sweet_Baby_Kisses_Family_Love.jpg" width="120" height="120" ><br>
+            <p class="B">the creatures that live on this planet and made a civilization </p>
+            <p id="B2"></p>
+            <button id="Z2" onclick="B()">show more</button>
+        </div>
+        <div class="div3">
+            <h2 class="h2">tree and plants</h2><br>
+            <img id="third-img" src="https://www.plantsnap.com/wp-content/uploads/2021/02/tree-planting-hand-water-shovel_1medium.jpg" width="120" height="120"><br>
+            <p class="C">before <span>humans</span> even existed they did and made the <span>earth</span> how it looks nowadays </p>
+            <p id="C3"></p>
+            <button id="Z3" onclick="C()">show more</button>
+        </div>
+        <div class="div6">
+            <h2>animals</h2>
+            <img id="forth-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtg6SNRxoTBGTHMxnV59khl2t1dAS0oynUMg&s" width="120" height="120">
+            <p class="D">these creatures are another life-form on earth</p>
+            <p id="D4"></p>
+            <button id="Z4" onclick="D()">show more</button>
+        </div>
+        <div class="div45">
+            <div class="div4">
+                <ol>
+                    <a class="link1" href="https://en.wikipedia.org/wiki/Earth"><li class="link1">earth wiki</li></a> 
+                    <a class="link2" href="https://en.wikipedia.org/wiki/Human"><li class="link1">humans wiki</li></a>
+                    <a class="link1" href="https://en.wikipedia.org/wiki/Tree"><li class="link1">trees wiki</li></a>
+                    <a class="link2" href="https://en.wikipedia.org/wiki/Plant"><li class="link1">plants wiki</li></a>
+                    <a class="link2" href="https://en.wikipedia.org/wiki/Animal"><li class="link1">animal wiki</li></a>
+                </ol>
+                <select name="content" id="select">
+                    <option selected disabled>select your favorite</option>
+                    <option value="EARTH IT SELF IS">earth</option>
+                    <option value="HUMANS ARE">humans</option>
+                    <option value="PLANTS AND TREE ARE">plants and trees</option>
+                </select>
+                <button id="12345" onclick="content()">is my favorite</button><br>
+                <p id="11111"></p>
+            </div>
+            <div class="div5">
+                <input id="comment-in" placeholder="your opinions">
+                <button id="comment" onclick="add()">send</button>
+                <p id="comment-section"></p>
+            </div>
+        </div>
+        <script src="myrealproject.js"></script>
+    </body>
+</html>
